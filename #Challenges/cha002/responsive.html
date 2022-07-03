@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(138, 138, 138);
+            padding: 15px;
+        }
+        main {
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            margin: auto;
+            min-width: 240px;
+            max-width: 1000px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 3px;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>
+            Responsive Test
+        </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quae aliquam, blanditiis libero sunt ipsum ratione iure maiores totam aut dignissimos nobis est ipsa maxime. Reiciendis vitae placeat reprehenderit illo vel soluta quaerat aspernatur dicta id adipisci nemo ratione sit animi quibusdam, deserunt excepturi architecto doloribus. Dolorem deleniti sunt quod!</p>
+        <div class="image">
+            <picture>
+                <source id="smallImage" media="(max-width: 600px)" srcset="images/irina-blok-pq.jpg">
+                <img src="images/irina-blok.jpg" alt="Irina Block Image">
+            </picture>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima blanditiis molestias quas autem corporis vero placeat explicabo odio? Reprehenderit eaque eligendi assumenda tempora? Magni, reprehenderit qui doloribus saepe laudantium, adipisci voluptate similique doloremque totam temporibus eos officiis, libero accusamus eius! Cumque veritatis deleniti, voluptates, ipsam voluptas quo maiores sapiente est optio odio nostrum quibusdam velit error beatae. Fuga eos minus, veniam quis cum, quibusdam eligendi, alias mollitia dignissimos corrupti explicabo!</p>
+    </main>
+</body>
+</html>

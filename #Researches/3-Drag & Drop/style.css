@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(51, 51, 51);
+    padding: 1rem;
+    margin-top: 1em;
+    width: 50px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    top: 10%;
+    left: 23.5%;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    position: absolute;
+    bottom: -35%;
+    right: 3%;
+    font-size: .75em;
+}
+
+.draggable {
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border: 2px solid rgb(19, 19, 19);
+    border-radius: 1px 5px;
+    cursor: move;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.draggable.dragging {
+    opacity: .5;
+}

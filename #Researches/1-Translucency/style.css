@@ -1,0 +1,51 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://ilustracode.com.br/assets/images/ballon.png");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    background: #ffffff10;
+    border: 2px solid #ffffff40;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid #ffffff30;
+    background: #ffffff50;
+}
+
+input[type="submit"]{
+    background-image: linear-gradient(45deg, #f37335, #fdc830);
+}
+
+#Button:hover{
+    box-shadow: 1px -1px 10px 0px rgba(255, 155, 105, 0.25), -1px 1px 10px 0 hsla(44, 100%, 87%, 0.25);
+    cursor: pointer;
+}

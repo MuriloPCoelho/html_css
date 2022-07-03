@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    font-family: "Ubuntu",Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Shadows Into Light", "Arial", "sans-serif";
+    font-size: 3em;
+}
+
+h2{
+    font-family: "Shadows Into Light", "Arial", "sans-serif";
+    font-size: 2em;
+}
