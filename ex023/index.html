@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Column Color</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px 20px 10px 20px;
+        }
+
+        #colNome {
+            background-color: lightgray;
+        }
+
+        #colSexo {
+            background-color: rgb(181, 181, 181);
+        }
+
+        #colIdade {
+            background-color: rgb(151, 151, 151);
+        }
+
+        #colProf {
+            background-color: rgb(121, 121, 121);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="colNome">
+            <col id="colSexo">
+            <col id="colIdade">
+            <col id="colProf">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Enfermeiro</td>
+        </tr>
+        <tr>
+            <td>Eduarda</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Alberto</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Íris</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Ágatha</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Policial</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Desempregado</td>
+        </tr>
+        <tr>
+            <td>Jaime</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Recepcionista</td>
+        </tr>
+    </table>
+</body>
+</html>

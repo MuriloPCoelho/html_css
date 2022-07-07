@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(131, 131, 131);
+        }
+
+        caption {
+            font-size: 2em;
+            text-align: left;
+            font-weight: bold;
+            background-color: rgba(211, 211, 211, 0.5);
+            padding: 5px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: white;
+        }
+
+       th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgb(131, 131, 131);
+        }
+
+        td.population {
+            text-align: right;
+        }
+
+        td.language, td.capital {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>South America Countries</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Capital</th>
+                <th scope="col">Main Language</th>
+                <th scope="col">Population</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="country">Argentina</td>
+                <td class="capital">Buenos Aires</td>
+                <td class="language">Spanish</td>
+                <td class="population">45 196 000</td>
+            </tr>
+            <tr>
+                <td class="country">Bolivia</td>
+                <td class="capital">Buenos Aires</td>
+                <td class="language">Spanish</td>
+                <td class="population">11 673 000</td>
+            </tr>
+            <tr>
+                <td class="country">Brazil</td>
+                <td class="capital">Brasilia</td>
+                <td class="language">Portuguese</td>
+                <td class="population">212 559 000	</td>
+            </tr>
+            <tr>
+                <td class="country">Chile</td>
+                <td class="capital">Santiago</td>
+                <td class="language">Spanish</td>
+                <td class="population">19 116 000</td>
+            </tr>
+            <tr>
+                <td class="country">Colombia</td>
+                <td class="capital">Bogota</td>
+                <td class="language">Spanish</td>
+                <td class="population">50 883 000</td>
+            </tr>
+            <tr>
+                <td class="country">Ecuador</td>
+                <td class="capital">Quito</td>
+                <td class="language">Spanish</td>
+                <td class="population">17 643 000</td>
+            </tr>
+            <tr>
+                <td class="country">Falklands Islands</td>
+                <td class="capital">Port Stanley</td>
+                <td class="language">English</td>
+                <td class="population">3 500</td>
+            </tr>
+            <tr>
+                <td class="country">South Georgia and the South Sandwich Islands</td>
+                <td class="capital">Grytviken</td>
+                <td class="language">English</td>
+                <td class="population">≅ 30</td>
+            </tr>
+            <tr>
+                <td class="country">French Guiana</td>
+                <td class="capital">Cayenne</td>
+                <td class="language">French</td>
+                <td class="population">299 000</td>
+            </tr>
+            <tr>
+                <td class="country">Guyana</td>
+                <td class="capital">Georgetown</td>
+                <td class="language">English</td>
+                <td class="population">787 000</td>
+            </tr>
+            <tr>
+                <td class="country">Paraguay</td>
+                <td class="capital">Assumption</td>
+                <td class="language">Spanish</td>
+                <td class="population">7 133 000</td>
+            </tr>
+            <tr>
+                <td class="country">Peru</td>
+                <td class="capital">Lime</td>
+                <td class="language">Spanish</td>
+                <td class="population">32 972 000</td>
+            </tr>
+            <tr>
+                <td class="country">Suriname</td>
+                <td class="capital">Paramaribo</td>
+                <td class="language">Dutch</td>
+                <td class="population">587 000</td>
+            </tr>
+            <tr>
+                <td class="country">Uruguay</td>
+                <td class="capital">Montevideo</td>
+                <td class="language">Spanish</td>
+                <td class="population">3,474,000</td>
+            </tr>
+            <tr>
+                <td class="country">Venezuela</td>
+                <td class="capital">Caracas</td>
+                <td class="language">Spanish</td>
+                <td class="population">28 436 000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
