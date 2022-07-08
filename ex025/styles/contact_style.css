@@ -54,20 +54,88 @@ main {
 }
 
 form {
-    margin: 40px 0;
+    width: 400px;
+    margin: 40px auto 40px auto;
 }
 
-form input {
+form > fieldset {
+    margin-bottom: 20px;
+    border: none;
+}
+
+form .textInput, #button {
     display: block;
-    height: 1.8em;
-    width: 300px;
-    margin: 0 0 20px 20px;
+    height: 2.5em;
+    width: 400px;
+    border: 0.5px solid rgb(129, 129, 129);
+    border-radius: 0px;
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
 
 form label {
     display: block;
     font-size: 1.2em;
-    margin-left: 20px;
+}
+
+textarea {
+    width: 410px;
+}
+
+.info_options{
+    display: inline;
+}
+
+.contacts legend {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+label.info_options {
+    margin-right: 10px;
+}
+
+#contacts {
+    margin-bottom: 20px;
+}
+
+#button {
+    margin-top: 20px;
+    background-color: rgb(252, 178, 40);
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+    border-color: rgb(252, 194, 87);
+    border-radius: 5px;
+}
+
+#button:hover {
+    border-color: rgb(252, 107, 40);
+    background-color: rgb(252, 125, 40);
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+#button:active {
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 185, 139);
+    transition: 0.1s;
+}
+
+table {
+    margin: 40px auto 40px auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+thead {
+    background-color: lightgray;
+    font-weight: bold;
 }
 
 footer {
