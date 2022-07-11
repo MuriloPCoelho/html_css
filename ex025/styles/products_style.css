@@ -89,7 +89,7 @@ main {
 }
 
 .options li:active {
-    border: 2px solid rgb(252, 72, 40);
+    border: 2px solid rgb(252, 125, 40);
 }
 
 .options li:hover h2 {
