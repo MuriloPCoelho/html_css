@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 200px 70px black;
+    padding: 20px 0;
+}
+
+header h1 {
+	display: inline-block;
+}
+
+.box {
+    position: relative;
+	margin: 0 40px 0 40px;
+}
+
+nav {
+	display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    position: absolute;
+	width: 287px;
+	height: 33px;
+	top: 50%;
+	right: 0;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    font-size: 1.4em;
+	text-shadow: 1px 1px 2px black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(252, 178, 40);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    transition: 0.1s;
+}
+
+.principal{
+	background: #2b2b2b;
+	padding: 30px;
+	color: white;
+	box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.301);
+	text-shadow: 1px 1px 2px black;
+	line-height: 3em;
+}
+
+.principal h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.principal p {
+	text-align: justify;
+	font-family: 'Roboto Mono', monospace;
+	text-indent: 20px;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+#missao {
+	background-color: rgba(0, 0, 0, 0.33);
+	display: inline;
+	padding: 5px;
+}
+
+.itens {
+	font-style: italic;
+	line-height: 2em;
+	font-size: 1.3em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3.beneficios {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul.beneficios {
+	display: inline-block;
+	margin-right: 15%;
+	color: white;
+	list-style: inside;
+}
+
+#img {
+	height: 400px;
+	background-image: url('../images/beneficios.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	padding: 20px;
+}
+
+div.mapa {
+	display: flex;
+	height: 400px;
+	padding: 10px;
+	background-image: url('../images/bg.jpg');
+	align-items: center;
+	justify-content: center;
+}
+
+div.iframe {
+	display: block;
+	width: 1000px;
+	height: 400px;
+	box-shadow: 0px 0px 50px black;
+}
+
+section.video {
+	display: flex;
+	height: 600px;
+	background-image: url('../images/barber-bg-2.jpg');
+	box-shadow: inset 0 0 200px 50px black;
+	align-items: center;
+	justify-content: center;
+}
+
+div.video {
+	display: block;
+	width: 560px;
+	height: 315px;
+}
+
+iframe.video {
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    padding-top: 60px
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+}
+
+#footerLogo {
+    width: 50px;
+}
+
+@media screen and (max-width: 480px){
+
+	.box {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	header h1 {
+		text-align: center;
+	}
+
+	div.logo {
+		margin: auto;
+	}
+
+	nav {
+		position: static;
+		margin: auto;
+	}
+
+	nav ul {
+		justify-content: space-around;
+	}
+
+	.principal p{
+		letter-spacing: -2px;
+	}
+
+	#img {
+		padding: 40px 0 40ppx 40px;
+	}
+
+	ul.beneficios {
+		margin-right: 0;
+	}
+
+	.itens {
+		line-height: 2em;
+	}
+
+	div.mapa {
+		padding: 5px 0;
+	}
+}

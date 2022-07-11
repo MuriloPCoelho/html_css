@@ -10,95 +10,89 @@
 <body>
     <header>
         <div class="box">
-            <h1>
-                <img src="images/logo-branco.png" alt="site logo">
-            </h1>
+                <h1>
+                    <img class="logo" src="images/logo-branco.png" alt="site logo">
+                </h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtcs.html">Products</a></li>
+                    <li><a href="contatc.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <form>
-            <label for="name">Name: </label>
-            <input class="textInput" type="text" id="name" required>
-
-            <label for="lastName">Last Name: </label>
-            <input class="textInput" type="text" id="lastName" required>
-
-            <label for="email">Email: </label>
-            <input class="textInput" type="email" id="email" placeholder="email@example.com" required>
+        <section class="formulario">
+            <form>
+                <label for="name">Name: </label>
+                <input class="textInput" type="text" id="name" required>
+                <label for="lastName">Last Name: </label>
+                <input class="textInput" type="text" id="lastName" required>
+                <label for="email">Email: </label>
+                <input class="textInput" type="email" id="email" placeholder="email@example.com" required>
             
-            <label for="phone">Phone: </label>
-            <input class="textInput" type="tel" id="phone" placeholder="(XX) XXXXX-XXXX" required>
+                <label for="phone">Phone: </label>
+                <input class="textInput" type="tel" id="phone" placeholder="(XX) XXXXX-XXXX" required>
+                <label for="message">Message</label>
+                <textarea id="message" cols="70" rows="10"></textarea>
+                <fieldset class="contacts">
+                    <legend>Which way of contact would you like?</legend>
+                    <input class="info_options" id="radio_email" name="contact" type="radio" value="email" checked>
+                    <label class="info_options" for="radio_email">Email</label>
+                    <input class="info_options" id="radio_phone" name="contact" type="radio" value="email">
+                    <label class="info_options" for="radio_phone">Phone</label>
+                    <input class="info_options" id="radio_whatsapp" name="contact" type="radio" value="Whatsapp">
+                    <label class="info_options" for="radio_whatsapp">Whatsapp</label>
+                </fieldset>
+                <fieldset class="contacts">
+                    <legend>Which shift do you prefer to be attended?</legend>
+                    <select name="" id="">
+                        <option value="">Morning</option>
+                        <option value="">Afternoon</option>
+                        <option value="">Night</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label class="info_options" for="news">Would you like to receive our news by email?</label>
+                    <input class="info_options" type="checkbox" name="" id="news" checked>
+                </fieldset>
+                <input id="button" type="submit" value="Submit">
+            </form>
+        </section>
 
-            <label for="message">Message</label>
-            <textarea id="message" cols="70" rows="10"></textarea>
-
-            <fieldset class="contacts">
-                <legend>Which way of contact would you like?</legend>
-                <input class="info_options" id="radio_email" name="contact" type="radio" value="email" checked>
-                <label class="info_options" for="radio_email">Email</label>
-
-                <input class="info_options" id="radio_phone" name="contact" type="radio" value="email">
-                <label class="info_options" for="radio_phone">Phone</label>
-
-                <input class="info_options" id="radio_whatsapp" name="contact" type="radio" value="Whatsapp">
-                <label class="info_options" for="radio_whatsapp">Whatsapp</label>
-                
-            </fieldset>
-
-            <fieldset class="contacts">
-                <legend>Which shift do you prefer to be attended?</legend>
-                <select name="" id="">
-                    <option value="">Morning</option>
-                    <option value="">Afternoon</option>
-                    <option value="">Night</option>
-                </select>
-            </fieldset>
-
-            <fieldset>
-                <label class="info_options" for="news">Would you like to receive our news by email?</label>
-                <input class="info_options" type="checkbox" name="" id="news" checked>
-            </fieldset>
-
-            <input id="button" type="submit" value="Submit">
-        </form>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Day</th>
-                    <th>Hours</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Monday</td>
-                    <td>9AM ~ 6PM</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>9AM ~ 6PM</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>9AM ~ 6PM</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>9AM ~ 6PM</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>10AM ~ 5PM</td>
-                </tr>
-            </tbody>
-        </table>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>9AM ~ 6PM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>9AM ~ 6PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>9AM ~ 6PM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>9AM ~ 6PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>10AM ~ 5PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
     <footer>
         <img id="footerLogo" src="images/logo-branco.png" alt="">
