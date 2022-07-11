@@ -207,4 +207,11 @@ footer {
 		justify-content: space-around;
 	}
 
+    section.formulario {
+        margin-top: 0;
+    }
+
+    form {
+        border-radius: 0px;
+    }
 }
