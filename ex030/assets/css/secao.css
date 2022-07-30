@@ -1,0 +1,9 @@
+.secao {
+    display: grid;
+    gap: 16px;
+}
+
+.secao__titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+}

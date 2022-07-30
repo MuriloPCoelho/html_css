@@ -5,6 +5,10 @@
     background-color: #2C343A;
 }
 
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
 .cartao__conteudo {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -53,6 +57,7 @@
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
