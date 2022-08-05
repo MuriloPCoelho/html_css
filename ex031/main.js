@@ -1,13 +1,11 @@
 const button = document.querySelector('.button');
-const buttonText = document.querySelector('.button__text');
+const blurEffect = document.querySelector('.blur');
 
-button.addEventListener("mouseover", () => {
-    buttonText.style.animation = "deslizar 0.3s forwards";
+button.addEventListener("click", () => {
+    blurEffect.style.width = "100%";
+    blurEffect.style.height = "100%"
 });
 
-button.addEventListener("mouseleave", () => {
-    buttonText.style.animation = "";
-})
 
 
 
