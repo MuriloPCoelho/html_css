@@ -1,0 +1,31 @@
+.dados {
+    padding: 0 112px 96px 112px;
+}
+
+.dados__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados__item {
+    margin-right: 32px;
+    width: 280px;
+}
+
+.dados__numero {
+    color: var(--vermelho-escuro);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.dados__titulo {
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px 0 8px 0;
+}
+
+.dados__texto {
+    color: var(--cinza);
+    line-height: 24px;
+}

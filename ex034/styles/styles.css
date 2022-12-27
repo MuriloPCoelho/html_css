@@ -1,0 +1,19 @@
+:root {
+    --branco: #FFFFFF;
+    --branco-rodape: #F9FAFB;
+    --cinza: #667085;
+    --cinza-claro: #EAECF0;
+    --cinza-escuro: #3A404E;
+    --azul-escuro: #101828;
+    --vermelho-escuro: #8E2424;
+    --cor-borda: #D0D5DD;
+    --cor-colaboradores: #C3191908;
+    --cor-copy: #98A2B3;
+    --cor-destaque: #8E24240D;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
