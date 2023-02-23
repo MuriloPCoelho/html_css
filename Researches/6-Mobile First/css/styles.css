@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #acacac;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(122, 43, 43);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: rgb(43, 43, 122);
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    body {
+        background-color: rgb(43, 122, 43);
+    }
+}
