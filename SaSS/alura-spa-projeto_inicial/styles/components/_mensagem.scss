@@ -1,0 +1,31 @@
+@import '../abstract/variaveis'; 
+
+#mensagem {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+
+    .texto {
+        max-width: 500px;
+        align-self: flex-start;
+
+        h3 {
+            text-align: center;
+            font-size: $tamanho-do-texto / 1.5;
+            font-weight: 300;
+            padding-bottom: 40px;
+        }
+
+        h4 {
+            padding-bottom: 20px;
+            font-size: $tamanho-do-texto / 2;
+            font-weight: 300;
+            color: $cor-secundaria;
+        }
+        
+        p {
+            font-size: $tamanho-do-texto / 2.5;
+            line-height: 24px;
+        }
+    }
+}
